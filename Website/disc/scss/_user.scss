@@ -1,0 +1,112 @@
+            .user-wrapper {
+                position: relative;
+                min-height: 100vh;
+                background-color: #8BC6EC;
+                background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+                padding: 20px;
+                align-content: center;
+                align-items: center;
+                display: block;
+                margin-top: 50px;
+                .inside-wrapper {
+                    position: relative;
+                    display: flex;
+                    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.5);
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    width: 60%;
+                    margin: auto;
+                    .left {
+                        width: 35%;
+                        background: linear-gradient(to right, #01a9ac, #01dbdf);
+                        padding: 30px 25px;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        text-align: center;
+                        margin: auto;
+                        color: #fff;
+                        .img {
+                            position: relative;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                        }
+                        h4 {
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .right {
+                        width: 65%;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        background: #fff;
+                        .info {
+                            margin-bottom: 25px;
+                            align-items: center;
+                            margin-left: 25px;
+                            margin-right: 25px;
+                            align-content: center;
+                            .info_data {
+                                align-content: center;
+                                align-items: center;
+                                h4 {
+                                    text-transform: uppercase;
+                                    padding: 3px;
+                                    border-bottom: 1px solid #e0e0e0;
+                                }
+                                p {
+                                    padding: 3px;
+                                }
+                            }
+                        }
+                        h3 {
+                            text-transform: uppercase;
+                            padding: 3px;
+                            align-items: center;
+                            font-weight: 800;
+                            margin-bottom: 10px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                form {
+                    width: 60%;
+                    height: 5%;
+                    border: 1px;
+                    border-radius: 5px;
+                    margin: auto;
+                    margin-top: 50px;
+                    input {
+                        width: 100%;
+                        padding: 5px;
+                        margin-bottom: 10px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.1);
+                    }
+                    .btnUpdate {
+                        max-width: 150px;
+                        background: #677eff;
+                        color: #fff;
+                        cursor: pointer;
+                        font-size: 14px;
+                        font-weight: 1000;
+                        letter-spacing: 1px;
+                        transition: 0.5s;
+                    }
+                }
+                .welcome {
+                    margin: auto;
+                    width: 50%;
+                    border: 3px solid green;
+                    padding: 10px;
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+                    .welcome-info {
+                        margin-bottom: 10px;
+                    }
+                }
+            }

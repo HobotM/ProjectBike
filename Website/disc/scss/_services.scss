@@ -1,0 +1,47 @@
+.section-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    &__title {
+        font-size: 1.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: #333;
+        margin-top: 70px;
+        font-family: "montserrat", sans-serif;
+    }
+}
+
+.grid {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+    &__item {}
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px #000 solid;
+    padding: 1rem 1.5rem;
+    background-color: rgb(255, 255, 255);
+    &__title {
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 1rem;
+    }
+    &__image {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    &__content {
+        margin-bottom: 1rem;
+    }
+    &__footer {
+        font-size: 1.125rem;
+    }
+}

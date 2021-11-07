@@ -1,0 +1,83 @@
+.admin-wrapper {
+    position: relative;
+    min-height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    h2 {
+        text-transform: uppercase;
+        padding: 3px;
+        align-items: center;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        position: absolute;
+        top: 10%;
+    }
+    table {
+        margin-top: 50px;
+        width: 100%;
+        background-color: #FFFFFF;
+        border-collapse: collapse;
+        border-color: #7ea8f8;
+        border-style: solid;
+        color: #000000;
+        td {
+            border-width: 2px;
+            border-color: #7ea8f8;
+            border-style: solid;
+            padding: 5px;
+        }
+        th {
+            border-width: 2px;
+            border-color: #7ea8f8;
+            border-style: solid;
+            padding: 5px;
+        }
+    }
+}
+
+.offers {
+    margin-top: 50px;
+    &__id {
+        width: 30px;
+        display: inline-block;
+        text-align: center;
+        padding: 2px;
+    }
+    &__name {
+        width: 200px;
+    }
+    &__description {
+        width: 300px;
+    }
+    &__price {
+        width: 100px;
+    }
+    &__btn {
+        width: 70px;
+    }
+}
+
+// Helper classes
+.d-inline-block {
+    display: inline-block;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.offers__btn[type="submit"] {
+    background: #677eff;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    padding: 5px 10px;
+}

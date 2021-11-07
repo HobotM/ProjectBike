@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    margin-top: 120px;
+}
+
+.border {
+    width: 180px;
+    height: 4px;
+    background: #333;
+    margin: 60px auto;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+}

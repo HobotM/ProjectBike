@@ -18,7 +18,7 @@
 					<a href="#">Contact</a>
 				</p>
 
-				<p class="footer-company-name">Bike King Borders © 2021</p>
+				<p class="footer-company-name">Bike King Borders © 2021 Matt Hobot</p>
 			</div>
 
 			<div class="footer-center">
